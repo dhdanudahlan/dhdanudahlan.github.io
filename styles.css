@@ -30,18 +30,18 @@ body {
     font-weight: bold;
   }
   
-  .hero {
+  .intro-section {
     text-align: center;
     padding: 3rem 1rem;
     background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
     color: #fff;
   }
   
-  .hero h2 {
+  .intro-section h2 {
     font-size: 2rem;
   }
   
-  .hero p {
+  .intro-section p {
     max-width: 600px;
     margin: 1rem auto;
   }
