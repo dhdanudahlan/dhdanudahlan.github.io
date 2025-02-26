@@ -33,8 +33,7 @@ body {
   .intro-section {
     text-align: center;
     padding: 3rem 1rem;
-    background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
-    color: #fff;
+    background: #fff;
   }
   
   .intro-section h2 {
