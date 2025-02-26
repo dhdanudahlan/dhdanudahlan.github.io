@@ -1,7 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dimas Danudahl | Android Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages by dhdanudalan.</p>
+  <!-- Navigation or Header -->
+  <header>
+    <h1>Dimas Humayun Danu Dahlan</h1>
+    <p>Android Developer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Introduction -->
+  <section class="intro-section">
+    <h2>Welcome to My Portfolio</h2>
+    <p>
+      Building robust Android applications with modern architectures and a passion for 
+      performance optimization.
+    </p>
+    <a class="btn" href="#contact">Get in Touch</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="content-section">
+    <h2>About Me</h2>
+    <p>
+        I am an Android Developer with over 2 years of experience in Kotlin, Jetpack Compose,
+        MVVM, and Clean Architecture. I graduated from Bangkit Academy (Android Path) 
+        where I received industry-global level training, and worked on a capstone project that is recognized 
+        as top 20 out of 787 teams and progressed to the incubation phase.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="content-section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Kotlin (Coroutines, Flow), Java</li>
+      <li>Android Jetpack (Compose, Navigation, Room, WorkManager)</li>
+      <li>Architectures: MVVM, Clean Architecture, MVI</li>
+      <li>Firebase (Auth, Firestore, Realtime DB), Retrofit</li>
+      <li>Dependency Injection (Hilt, Dagger 2)</li>
+      <li>Testing: JUnit, Espresso, Robolectric</li>
+      <li>CI/CD with GitHub Actions, Jenkins</li>
+      <li>Git, GitFlow branching strategies</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="content-section">
+    <h2>My Projects</h2>
+    <!-- PondPedia PROJECT -->
+    <article class="project">
+      <h3>PondPedia (Bangkit Capstone)</h3>
+      <p>
+        An Android app that tracks and helps users in aquaculture practice. 
+        Recognized in Bangkit’s top 20 out of 787 teams for reaching the incubation phase.
+      </p>
+      <p>
+        <h4>Tech Stack:</h4> Kotlin, Jetpack Compose, Firebase Auth, Firestore, ...
+      </p>
+      <a href="https://github.com/dhdanudahlan/pondpedia-android" target="_blank">View on GitHub</a>
+    </article>
+
+    <!-- PONDPEDIA PROJECT -->
+    <article class="project">
+        <h3>PondPedia</h3>
+        <p>
+          <strong>Overview:</strong> An Android app that tracks and helps users in aquaculture practice. 
+          Recognized in Bangkit’s top 20 out of 787 teams for reaching the incubation phase. It includes:
+        </p>
+        <ul>
+          <li><strong>Pond Tracking:</strong> Log actions, events, and expenses with details for each ponds to help farmer manage digitally.</li>
+          <li><strong>Virtual Assistant:</strong> AI based Virtual assistant integrated with GPT to help farmer in their practice.</li>
+        </ul>
+        <p>
+          <strong>Tech Stack:</strong> Kotlin, Jetpack Compose, Clean Architecture (MVVM), Room, Dagger-Hilt, Retrofit, Firebase Auth/Firestore, Espresso/JUnit testing.
+        </p>
+        <p>
+          <strong>GitHub Repo:</strong>
+          <a href="https://github.com/dhdanudahlan/pondpedia-android" target="_blank">View on GitHub</a>
+        </p>
+      </article>
+
+    <!-- SMARTFINANCE PROJECT -->
+    <article class="project">
+        <h3>SmartFinance</h3>
+        <p>
+          <strong>Overview:</strong> SmartFinance is a personal finance manager app designed to
+          help users manage their income, expenses, and financial goals effectively. It includes:
+        </p>
+        <ul>
+          <li><strong>Budgeting:</strong> Create budgets for categories with monthly or weekly durations, track progress visually, and receive notifications.</li>
+          <li><strong>Expense Tracking:</strong> Log expenses with details (amount, category, date, notes), attach receipts, and visualize spending trends.</li>
+          <li><strong>Financial Goal Setting:</strong> Set savings goals with deadlines, track progress, and automate savings recommendations.</li>
+          <li><strong>Reports:</strong> Export detailed PDF/Excel reports, expense breakdowns, and budget summaries.</li>
+          <li><strong>Security:</strong> Biometric authentication and encrypted data storage.</li>
+        </ul>
+        <p>
+          <strong>Tech Stack:</strong> Kotlin, Jetpack Compose, Clean Architecture (MVVM), Room, Dagger-Hilt, Retrofit, Firebase Auth/Firestore, MPAndroidChart, Espresso/JUnit testing.
+        </p>
+        <p>
+          <strong>Future Enhancements:</strong> Recurring transactions, currency conversion, advanced data security (SQLCipher), and more analytics with Firebase Analytics.
+        </p>
+        <p>
+          <strong>GitHub Repo:</strong>
+          <a href="https://github.com/your-repo-url" target="_blank">SmartFinance GitHub</a>
+        </p>
+      </article>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="content-section">
+    <h2>Contact Me</h2>
+    <ul>
+      <li>Email: <a href="mailto:dhdanudahlan@gmail.com">dhdanudahlan@gmail.com</a></li>
+      <li>LinkedIn: <a href="https://linkedin.com/in/dhdanudahlan" target="_blank">@dhdanudahlan</a></li>
+      <li>GitHub: <a href="https://github.com/dhdanudahlan" target="_blank">@dhdanudahlan</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Dimas Humayun Danu Dahlan. All rights reserved.</p>
+  </footer>
+
+  <!-- External JS script -->
+  <script src="script.js"></script>
 </body>
 </html>
