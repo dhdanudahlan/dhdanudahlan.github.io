@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dimas H. Danu Dahlan | PondPedia</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <!-- Navigation or Header -->
+  <header>
+    <h1>Dimas Humayun Danu Dahlan</h1>
+    <p>Android Developer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Introduction -->
+  <section class="intro-section">
+    <h2>Project Overview</h2>
+    <p>
+        PondPedia is an advanced Android application built using Kotlin and Jetpack Compose, designed with clean architecture principles and modern best practices. 
+        The app provides a user-friendly interface for comprehensive pond and aquatic ecosystem management and information.
+    </p>
+  </section>
+
+  <!-- Key Features Section -->
+  <section id="features" class="content-section">
+    <h2>Key Features</h2>
+    <ul>
+        <li><strong>Management:</strong> Add, edit, and delete pond profiles with detailed information such as location, size, and species.</li> 
+        <li><strong>Water Quality Monitoring:</strong> Record and track key water parameters like temperature, pH, and dissolved oxygen.</li> 
+        <li><strong>Feeding Management:</strong> Create and manage feeding schedules with customizable feeding amounts and frequencies.</li> 
+        <li><strong>Growth Tracking:</strong> Monitor the growth of aquatic life by recording weight and length measurements.</li> 
+        <li><strong>AI Chat:</strong> Consult with an AI-powered chatbot for expert advice on pond management.</li> 
+        <li><strong>Intuitive User Interface:</strong> Crafted using Jetpack Compose for seamless UI development and enhanced user experience.</li> 
+        <li><strong>Authentication & Security:</strong> Secure user authentication implemented via Firebase Authentication, supported by custom Auth Interceptors.</li> 
+        <li><strong>Local Data Management:</strong> Robust local data handling using DataStore and Room database for offline support.</li> 
+        <li><strong>RESTful API Integration:</strong> Managed through Retrofit with custom interceptors and authenticators for secure API requests.</li> 
+    </ul>
+  </section>
+
+  <!-- Technology Stacks Section -->
+  <section id="techstacks" class="content-section">
+    <h2>Technology Stacks</h2>
+    <ul>
+        <li><strong>Programming Language:</strong> Kotlin</li> 
+        <li><strong>Framework:</strong> Android Jetpack Compose</li> 
+        <li><strong>Libraries:</strong>
+            <ul>
+                <li>Dagger-Hilt for dependency injection</li> 
+                <li>Room for local database management</li> 
+                <li>Retrofit for network communication</li> 
+            </ul>
+        </li> 
+        <li><strong>Tools:</strong> 
+            <ul>
+                <li>Android Studio for development</li> 
+                <li>GitHub for version control</li> 
+            </ul>
+        </li> 
+    </ul>
+  </section>
+
+
+  <!-- Architecture and Design Patterns Section -->
+  <section id="architecture" class="content-section">
+    <h2>Architecture and Design Patterns</h2>
+    <p>
+        Pondpedia follows the MVVM (Model-View-ViewModel) and Clean Architecture to ensure a clear separation of concerns and improve code testability. 
+        Key design patterns used in the project include:
+        <ul>
+            <li><strong>Repository Pattern:</strong> Provides an abstraction layer for data access, allowing for seamless switching between local and remote data sources.</li> 
+            <li><strong>Singleton Pattern:</strong> Ensures that only one instance of certain classes, such as the database instance, exists throughout the application.</li> 
+        </ul>
+    </p>
+  </section>
+
+  <!-- Challenge and Solutions Section -->
+  <section id="projects" class="content-section">
+    <h2>Challenge and Solutions</h2>
+
+    <article class="project">
+        <ul>
+            <li><strong>Challenge:</strong> Efficiently managing and displaying large datasets of pond records.            </li>
+            <li><strong>Solutions:</strong> Implemented Room database with optimized queries and data structures to ensure smooth performance.</li>
+        </ul>
+    </article>
+    <article class="project">
+        <ul>
+            <li><strong>Challenge:</strong> Integrating the Authorization within the application.</li>
+            <li><strong>Solutions:</strong> Custom AuthInterceptor and TokenManager were implemented to maintain secure and consistent authentication states.</li>
+        </ul>
+    </article>
+    <article class="project">
+        <ul>
+            <li><strong>Challenge:</strong> Integrating the AI chatbot with the application's UI.</li>
+            <li><strong>Solutions:</strong> Utilized Jetpack Compose's state management capabilities to seamlessly update the UI with chatbot responses.</li>
+        </ul>
+    </article>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="content-section">
+    <h2>Contact Me</h2>
+    <ul>
+        <li>
+            <strong>GitHub Repo:</strong><a href="https://github.com/dhdanudahlan/pondpedia-android" target="_blank">PondPedia</a>
+        </li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Dimas Humayun Danu Dahlan. All rights reserved.</p>
+  </footer>
+
+  <!-- External JS script -->
+  <script src="../script.js"></script>
+</body>
+</html>
